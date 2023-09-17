@@ -203,6 +203,25 @@ p.lead {
    margin-bottom: 18px;
 }
 
+
+/*Help Box
+*/
+
+#helpbox {
+
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-gap: 10px;
+-moz-column-gap: 10px;
+column-gap: 10px;
+-webkit-column-rule: 1px solid rgba(28,110,164,0.5);
+-moz-column-rule: 1px solid rgba(28,110,164,0.5);
+column-rule: 1px solid rgba(28,110,164,0.5);
+
+}
+
+
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
 em { font: 15px/30px 'opensans-italic', sans-serif; }
@@ -619,7 +638,7 @@ input[type="checkbox"] { display: inline; }
 --------------------------------------------------------------- */
 .row {
    width: 96%;
-   max-width: 1008px;
+   max-width: 900px;
    margin: 0 auto;
 }
 /* fixed width for IE8 */
@@ -627,7 +646,7 @@ input[type="checkbox"] { display: inline; }
 
 .narrow .row { max-width: 980px; }
 
-.row .row { width: auto; max-width: none; margin: 0 -18px; }
+.row .row { width: auto; max-width: 400; margin: 0 -18px; }
 
 /* row clearing */
 .row:before,

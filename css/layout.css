@@ -276,19 +276,21 @@ ul#nav li.current a { color: #fff; }
 /*	e. Pricing Section
 /*----------------------------------------------*/
 
-#pricing {
+#help {
 	background: #F7F7F7;
    padding-top: 107px;
    padding-bottom: 77px;   
    border-top: 1px solid #F0F0F0;
    border-bottom: 1px solid #F0F0F0;
    text-align: center;
+	height: 700;
 }
-#pricing .price-block {
+#help .price-block {
    background: #fff;
    border: 1px solid #E6E6E6;
    text-align: center;
    margin-bottom: 36px;
+	height: 700 solid;
 }
 .plan-title {
   	font: 15px/30px 'montserrat-regular', sans-serif;
@@ -297,6 +299,7 @@ ul#nav li.current a { color: #fff; }
   	text-align: center;
    text-transform: uppercase;
    letter-spacing: 2px;
+	height: 700;
 }
 .plan-title .fa {
   	display: block;
@@ -747,8 +750,8 @@ footer .footer-logo a {
    margin-left: 3px;
 }
 footer .footer-logo a img {
-   height: 24px;
-   width: 92px;
+   height: 100px;
+   width: 120px;
 }
 
 footer .right-cols .columns {
